@@ -17,7 +17,7 @@ export class HomepageService {
   }
 
   getData(): Observable<any> {
-    this.URL = "http://localhost:8000/demo/testing/data";
+    this.URL = "http://18.140.201.252:8000/demo/testing/data";
     return this.http.get(this.URL).pipe(
       catchError(this.handleError)
     );
