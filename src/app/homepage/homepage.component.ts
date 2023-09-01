@@ -14,7 +14,7 @@ export class HomepageComponent implements OnInit {
   constructor(
     private serv: HomepageService
   ) {
-    this.frontend = "Ini data dari frontend";
+    this.frontend = "Ini data dari frontend Lagi";
 
     window.addEventListener('blur', this.handleBlur.bind(this));
     window.addEventListener('focus', this.handleFocus.bind(this));
